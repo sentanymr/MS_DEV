@@ -27,7 +27,7 @@ public class RTF_to_PDF {
 		
 		//open the source rtf file
 		FileInputStream fis = new FileInputStream(rtfFilePath);
-		
+	 
 		//create a document for the pdf
 		com.lowagie.text.Document document = new com.lowagie.text.Document(PageSize.LETTER);
 		
